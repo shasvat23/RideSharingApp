@@ -138,9 +138,12 @@ private:
     }
     queue<coordinates> FindShortestPath(coordinates end_pt)
     {
-        int Mat[xMax][yMax];
+        int** Mat = new int*[xMax];
+        for(int i = 0; i <= xMax; ++i)
+            Mat[i] = new int[yMax+1];
+       
         for(int i =0; i<=xMax ;i++)
-            for(int j =0;j <yMax;j++)
+            for(int j =0;j <=yMax;j++)
                 Mat[i][j]=1;
         queue<Node> q;
 	Node src = {xCurrent, yCurrent};
@@ -205,9 +208,9 @@ private:
     coordinates FindClosestNextNode()
     {
         float minDist_P = 10000;
-        int idx_PickupList ; 
+        int idx_PickupList = -1; 
         float minDist_I = 10000; 
-        int idx_Incar; 
+        int idx_Incar = -1; 
         if(!PassengerPickupList.size() && !PassengersInCar.size())
             return {0,0};
         for(int i =0; i < PassengerPickupList.size();i++)
@@ -388,8 +391,9 @@ public :
     }
     void MoveOneBlockForward()
     {
+        ReadFileAndUpdatePassengerPickUpList(); 
         MoveToNextBlock();
-        ReadFileAndUpdatePassengerPickUpList();     
+            
         printCurrentPos();
         
         
@@ -442,7 +446,7 @@ int main(int argc, char**argv) {
     cin >> x>> y; 
     
     Route R(x,y); 
-    
+    R.Start();
     while (1)
 	{
                 cout<<"Type 'n' for next move, type 'q' to quit"<<endl;
