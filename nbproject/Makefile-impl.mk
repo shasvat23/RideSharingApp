@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=RideSharingApp
+PROJECTNAME=Perceptive_Automata
 
 # Active Configuration
 DEFAULTCONF=Debug

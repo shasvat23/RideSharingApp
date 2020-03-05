@@ -4,12 +4,10 @@ Some things to consider
 
 2) The app will ask initially for the max grid points x and y
 
-3) Passenger Input is through a .txt file rather than json (I am not so much familiar with j
-    son format). The app reads a "PassengerList.txt" file which should reside in the same folder as
+3) Passenger Input is through a .txt file .The app reads a "PassengerList.txt" file which should reside in the same folder as
     the executable. 
 
-4)  The format for txt file is simple, for eg "Ian 2 2 4 6", means Passenger 
-    name is Ian, his starting pt is (2,2) and end pt is (4,6).One line has only one passenger info
+4)  The format for txt file is simple, for eg "Ian 2 2 4 6", means Passenger name is Ian, his starting pt is (2,2) and end pt is (4,6).One line has only one passenger info
 
 5) Very Imp: Once a file is read it gets deleted so that same information is not read by app over and over
 
@@ -32,8 +30,7 @@ Some things to consider
     ""No new person to pickup or drop; idling down "
 
 12) If the use wants to add more people, they should create the "PassengerList.txt", then hit "n"
-    for next move, then the user should remove the information or else the app will keep on adding the same 
-    information over and over again
+    for next move,
 
 13) If a passenger's end point is out of map the app will not store its info, the passengers end pt has to be within 
     the xMax, yMax grid 

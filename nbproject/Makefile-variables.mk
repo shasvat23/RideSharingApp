@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=ridesharingapp
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/ridesharingapp
+CND_ARTIFACT_NAME_Debug=perceptive_automata
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/perceptive_automata
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=ridesharingapp.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/ridesharingapp.tar
+CND_PACKAGE_NAME_Debug=perceptiveautomata.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/perceptiveautomata.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=ridesharingapp
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/ridesharingapp
+CND_ARTIFACT_NAME_Release=perceptive_automata
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/perceptive_automata
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=ridesharingapp.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/ridesharingapp.tar
+CND_PACKAGE_NAME_Release=perceptiveautomata.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/perceptiveautomata.tar
 #
 # include compiler specific variables
 #
