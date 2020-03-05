@@ -1,5 +1,3 @@
-Some things to consider
-
 1) It is assumed that the Car always start from (0,0) 
 
 2) The app will ask initially for the max grid points x and y
