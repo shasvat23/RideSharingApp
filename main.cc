@@ -138,7 +138,7 @@ private:
     }
     queue<coordinates> FindShortestPath(coordinates end_pt)
     {
-        int** Mat = new int*[xMax];
+        int** Mat = new int*[xMax+1];
         for(int i = 0; i <= xMax; ++i)
             Mat[i] = new int[yMax+1];
        
