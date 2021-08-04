@@ -1,0 +1,22 @@
+﻿  RideSharing_Functionality.cc
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(207,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(217,25): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(228,24): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(230,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(233,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(295,24): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(303,24): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(316,24): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(328,24): warning C4018: '<': signed/unsigned mismatch
+  RideSharingApp.cpp
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(207,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(217,25): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(228,24): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(230,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(233,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(295,24): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(303,24): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(316,24): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\RideSharingApp\RideSharing_Functionality.cc(328,24): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  RideSharingApp.vcxproj -> C:\Repos\RideSharingApp\RideSharingApp\Debug\RideSharingApp.exe
